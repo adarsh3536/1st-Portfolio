@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="contact.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous"> 
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<body>
+
+    <div id="container">
+    <div class="fixed-top">
+    <nav>
+        <ul id='navBar'> 
+          <li><a href="home.html" class="navi">Home</a></li>
+          <li><a href="about.html" class="navi">About</a></li>
+          <li><a href="work.html" class="navi">Work</a></li>
+          <li><a class= "current" href="contact.html" class="navi">Contact</a></li>
+          <li><i class="fab fa-instagram"></i> </li>
+          
+        </ul>
+      </nav>
+    </div>
+
+      <h2 id='heading1'>Let's talk.</h2>
+
+      <p id='para1'>Get in touch via the form below, or by emailing <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSDZBJQmlNGJqHtNrvpgRMXxqffDGKNwxVtRpBRklNPtlBPqQKwhDQzPqzbcfpgBBclTQdvg" target="_blank" id="lastLink"> adarshgupta7103@gmail.com.</a></p>
+
+      </div>
+
+
+      <!-- <div id="form">
+
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Name:</label><br/>
+            <input type="text" id="exampleFormControlTextarea1" placeholder="Enter your name"></textarea>></textarea>
+          </div>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email address:</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter your email address">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Message:</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+
+      </div> -->
+
+
+      <div class="main">
+        <form action="action_page.php">
+      
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" placeholder="Enter your name">
+      
+          <label for="email">Email:</label>
+          <input type="text" placeholder="Enter your email address" name="email" id="email" required>
+
+          <label for="subject">Message:</label>
+          <textarea id="subject" name="subject" placeholder="Enter your message" style="height:100px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
+
+</body>
+</html>
